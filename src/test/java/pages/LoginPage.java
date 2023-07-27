@@ -32,8 +32,8 @@ public class LoginPage extends RunCucumberTest {
     }
 
     public void vejoMinhaConta() {
-        String logout = getDriver().findElement(By.xpath("//*[@id=\"tbay-topbar\"]/div/div/div/ul/li[2]/a")).getText();
-        Assert.assertEquals("Não acessou a sua conta!", "Logout", logout);
+        String sair = getDriver().findElement(By.xpath("//*[@id=\"main\"]/div/nav/ul/li[6]/a")).getText();
+        Assert.assertEquals("Não acessou a sua conta!", "SAIR", sair);
     }
 
     public void mensagemSenhaErrada() {
