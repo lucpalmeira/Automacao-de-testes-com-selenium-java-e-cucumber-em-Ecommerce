@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lojaebac2" />
+        <module name="lojaebac-parte-4" />
+        <module name="lojaebac2(parte 4)EnviandoAtributosParaExecução" />
+        <module name="lojaebac(parte4)" />
+        <module name="lojaebac2(parte 3)EnviandoAtributosParaExecução" />
+        <module name="lojaebac2(parte 4)" />
+        <module name="lojaebac(parte 4)" />
+        <module name="lojaebac2(parte 1)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
