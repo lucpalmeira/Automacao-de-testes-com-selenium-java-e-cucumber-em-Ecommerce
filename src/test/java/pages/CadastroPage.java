@@ -16,7 +16,7 @@ public class CadastroPage extends RunCucumberTest {
 
 
     public void acessandoSite() {
-        getDriver("chrome").get(URL);
+        getDriver(System.getProperty("browser")).get(URL);
     }
 
     public void cadastrandoEmail() {
@@ -33,7 +33,7 @@ public class CadastroPage extends RunCucumberTest {
     }
 
     public void vendoCadastroConcluido() {
-        String logout = getDriver().findElement(By.xpath("//*[@id=\"main\"]/div/nav/ul/li[6]/a")).getText();
-        Assert.assertEquals("Algo está errado!", "SAIR", logout);
+        String sair = getDriver().findElement(By.xpath("//*[@id=\"main\"]/div/nav/ul/li[6]/a")).getText();
+        Assert.assertEquals("Não acessou a sua conta!", "SAIR", sair);
     }
 }

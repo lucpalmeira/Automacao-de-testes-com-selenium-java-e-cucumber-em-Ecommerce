@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.029 s <<< FAILURE! - in runner.RunCucumberTest
-Login.Login com sucesso  Time elapsed: 8.143 s  <<< FAILURE!
-org.junit.ComparisonFailure: Não acessou a sua conta! expected:<[Logout]> but was:<[]>
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.114 s - in runner.RunCucumberTest

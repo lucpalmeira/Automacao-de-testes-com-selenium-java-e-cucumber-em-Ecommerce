@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"json:target/reports/cucumberTests.json", "html:target/reports/cucumberTests.html"},
         features = "src/test/resources/features",
-        tags = "@login",
+        tags = "@cadastro_de_usuario",
         glue = {"steps"}
 
 )
