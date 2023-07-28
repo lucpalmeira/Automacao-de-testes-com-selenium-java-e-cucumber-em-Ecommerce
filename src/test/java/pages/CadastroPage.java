@@ -16,7 +16,7 @@ public class CadastroPage extends RunCucumberTest {
 
 
     public void acessandoSite() {
-        getDriver("chrome").get(URL);
+        getDriver(System.getProperty("browser")).get(URL);
     }
 
     public void cadastrandoEmail() {
